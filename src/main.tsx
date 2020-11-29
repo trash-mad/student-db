@@ -70,7 +70,7 @@ namespace student {
     return (
       <MuiThemeProvider theme={theme}>
         <SnackProvider>
-          <Scaffold title="Form generator app" pages={pages}>
+          <Scaffold title="Student app" pages={pages}>
             <Router ref={router}>
               <Route url="/" component={ListPage}/>
               <Route url="/one/:id" component={OnePage}/>
